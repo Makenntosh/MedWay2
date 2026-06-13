@@ -1,4 +1,5 @@
 import { CheckCircle2 } from "lucide-react";
+import xxxl from '../../../XXXL.webp'
 
 const advantages = [
   "Индивидуальный план лечения для каждого пациента",
@@ -55,7 +56,7 @@ export function AboutSection() {
           <div className="relative">
             <div className="relative rounded-3xl overflow-hidden aspect-[4/3]" style={{ boxShadow: "0 20px 60px rgba(26,77,124,0.15)" }}>
               <img
-                src="https://images.unsplash.com/photo-1621953703922-8146d7127225?w=800&h=600&fit=crop&auto=format"
+                src={xxxl}
                 alt="Интерьер клиники МедиКлиника — уютные и современные залы ожидания"
                 className="w-full h-full object-cover"
               />
