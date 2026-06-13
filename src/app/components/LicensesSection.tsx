@@ -1,3 +1,6 @@
+import cert1 from '../../../licence1.jpg'
+import cert2 from '../../../licence2.jpg'
+
 export function LicensesSection() {
   return (
     <section id="licenses" className="py-24 bg-white">
@@ -25,7 +28,7 @@ export function LicensesSection() {
             style={{ boxShadow: "0 4px 24px rgba(26,77,124,0.12)", border: "1px solid rgba(26,77,124,0.08)" }}
           >
             <img
-              src="/licence1.jpg"
+              src={cert1}
               alt="Лицензия на медицинскую деятельность"
               className="w-full h-full object-cover"
             />
@@ -35,7 +38,7 @@ export function LicensesSection() {
             style={{ boxShadow: "0 4px 24px rgba(26,77,124,0.12)", border: "1px solid rgba(26,77,124,0.08)" }}
           >
             <img
-              src="/licence2.jpg"
+              src={cert2}
               alt="Лицензия на оборот наркотических средств"
               className="w-full h-full object-cover"
             />
